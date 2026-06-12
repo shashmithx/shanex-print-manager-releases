@@ -1,19 +1,19 @@
 {
-  "version": "2.8.0",
-  "releaseType": "optional",
-  "minVersion": "2.0.0",
-  "changelog": "• Image stretch fix — raster prints now render at correct physical size\n• Media type selection added to print toolbar\n• 7-day trial period\n• Launch on Windows startup option\n• Bundled Ghostscript — no separate install required\n• License activation spinner fix",
-  "installer": {
-    "url": "",
-    "sha256": ""
-  },
-  "tips": [
-    {
-      "title": "Quick Tip",
-      "body": "Use the tray selector in the toolbar to pick a specific paper tray for each print job.",
-      "image": "",
-      "imageWidth": 0,
-      "imageHeight": 0
-    }
-  ]
+    "changelog":  "- Image stretch fix - raster prints now render at correct physical size\n- Media type selection added to print toolbar\n- 7-day trial period\n- Launch on Windows startup option\n- Bundled Ghostscript - no separate install required\n- License activation spinner fix",
+    "version":  "2.8.0",
+    "installer":  {
+                      "sha256":  "7749579b69ec0c073e9811fab833c032b0fad13cced4e43b6d3b05eb1a779f3c",
+                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.0/SHANEX-Print-Manager-Pro-2.8.0.msi"
+                  },
+    "minVersion":  "2.0.0",
+    "tips":  [
+                 {
+                     "imageWidth":  0,
+                     "title":  "Quick Tip",
+                     "body":  "Use the tray selector in the toolbar to pick a specific paper tray for each print job.",
+                     "imageHeight":  0,
+                     "image":  ""
+                 }
+             ],
+    "releaseType":  "optional"
 }
