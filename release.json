@@ -1,9 +1,9 @@
 {
-    "changelog":  "- Fix: Portrait images printed on landscape were horizontally stretched\n- Fix: Print preview only showed page 1 (multi-page navigation now works)\n- New: B/W filter has 3 strength levels — Light, Medium, Strong",
-    "version":  "2.8.1",
+    "changelog":  "- Fix: Images and PDFs no longer stretch when printing in color mode\n- Fix: Files marked as Done no longer revert to Pending on restart\n- Fix: Files no longer falsely show as Deleted after rename\n- Fix: App window loads immediately on startup\n- New: Collate option when printing multiple copies (toggle ⧉ next to qty)",
+    "version":  "2.8.2",
     "installer":  {
-                      "sha256":  "29D5184FA161E3A956EF0CDC99701D3319EB34C52A2C83077FD26EAFFA83E6B0",
-                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.1/SHANEX-Print-Manager-Pro-2.8.1.msi"
+                      "sha256":  "0D3EE8CD9F66896234DB0761A86D0299E38E4EE9EA3777319BC20A91690CB09E",
+                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.2/SHANEX-Print-Manager-Pro-2.8.2.msi"
                   },
     "minVersion":  "2.8.0",
     "tips":  [
