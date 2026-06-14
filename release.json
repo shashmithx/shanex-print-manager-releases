@@ -1,13 +1,13 @@
 {
-    "changelog":  "- Fix: Images and PDFs no longer stretch when printing in color mode\n- Fix: Files marked as Done no longer revert to Pending on restart\n- Fix: Files no longer falsely show as Deleted after rename\n- Fix: App window loads immediately on startup\n- New: Collate option when printing multiple copies (toggle ⧉ next to qty)",
-    "version":  "2.8.2",
-    "installer":  {
-                      "sha256":  "0D3EE8CD9F66896234DB0761A86D0299E38E4EE9EA3777319BC20A91690CB09E",
-                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.2/SHANEX-Print-Manager-Pro-2.8.2.msi"
-                  },
+    "version":  "2.8.3",
+    "releaseType":  "optional",
     "minVersion":  "2.8.0",
-    "tips":  [
+    "changelog":  "- Fix: Custom scale (e.g. 60%) and Fit-to-page no longer stretch or distort the print\n- Fix: Output now respects the chosen scale and stays centered with correct aspect ratio",
+    "installer":  {
+                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.3/SHANEX-Print-Manager-Pro-2.8.3.msi",
+                      "sha256":  "69775AA6F4F2AAD001A526B568BC51A0829A2934A613C60777D5DF9256EEB669"
+                  },
+    "tips":  {
 
-             ],
-    "releaseType":  "optional"
+             }
 }
