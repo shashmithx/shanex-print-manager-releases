@@ -1,11 +1,11 @@
 {
-    "version":  "2.8.4",
+    "version":  "2.8.5",
     "releaseType":  "recommended",
     "minVersion":  "2.8.0",
-    "changelog":  "- Fixed: printed PDF/image stretch (Letter on A4 etc.) - aspect \u0026 scale now preserved exactly\n- Fixed: fit-to-page double margin - content now fills the chosen margin box\n- Custom % and Do-Not-Scale corrected",
+    "changelog":  "- Fixed: 2-up printing now splits into proper A-series sizes (A4-\u003e2x A5 etc.) with correct page rotation\n- New: instant splash screen when launching the app",
     "installer":  {
-                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.4/SHANEX-Print-Manager-Pro-2.8.4.msi",
-                      "sha256":  "3F2D2DCF67697E26CA8A72BE966A2CCB47A027F369C3099BBE54E93B36E017C9"
+                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.5/SHANEX-Print-Manager-Pro-2.8.5.msi",
+                      "sha256":  "20AD94645B2BE0C437043B923EA0438F3FE902EEC6AEB2F3EF49154DD48A3CD3"
                   },
     "tips":  {
 
