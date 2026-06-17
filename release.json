@@ -1,13 +1,11 @@
 {
-    "version":  "2.8.5",
-    "releaseType":  "recommended",
-    "minVersion":  "2.8.0",
-    "changelog":  "- Fixed: 2-up printing now splits into proper A-series sizes (A4-\u003e2x A5 etc.) with correct page rotation\n- New: instant splash screen when launching the app",
-    "installer":  {
-                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.5/SHANEX-Print-Manager-Pro-2.8.5.msi",
-                      "sha256":  "20AD94645B2BE0C437043B923EA0438F3FE902EEC6AEB2F3EF49154DD48A3CD3"
-                  },
-    "tips":  {
-
-             }
+  "version": "2.8.13",
+  "releaseType": "optional",
+  "minVersion": "2.0.0",
+  "changelog": "WhatsApp:\n• Contact profile pictures & media thumbnails now load.\n• Faster engine startup.\n• Session no longer lost on restart (no more Clear Data + re-scan QR).\n\nVIP:\n• Full-screen VIP popup now fires reliably — on messages and received files.\n• Received files no longer show a duplicate notification.\n\nPrinting:\n• A6 receipts print on the correct paper/tray.\n\nLicensing:\n• Developer access codes no longer rejected due to hardware-ID case.",
+  "installer": {
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.13/SHANEX.Print.Manager.Pro.2.8.13.msi",
+    "sha256": "969273db32490445b2cd49b90473135e5066d4d8c155e03bc793cd16c8272d86"
+  },
+  "tips": []
 }
