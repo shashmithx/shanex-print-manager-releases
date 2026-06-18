@@ -1,11 +1,11 @@
 {
-  "version": "2.8.13",
+  "version": "2.8.15",
   "releaseType": "optional",
   "minVersion": "2.0.0",
-  "changelog": "WhatsApp:\n• Contact profile pictures & media thumbnails now load.\n• Faster engine startup.\n• Session no longer lost on restart (no more Clear Data + re-scan QR).\n\nVIP:\n• Full-screen VIP popup now fires reliably — on messages and received files.\n• Received files no longer show a duplicate notification.\n\nPrinting:\n• A6 receipts print on the correct paper/tray.\n\nLicensing:\n• Developer access codes no longer rejected due to hardware-ID case.",
+  "changelog": "Startup:\n• The splash screen now shows reliably when you open the app.\n\nWhatsApp:\n• Your WhatsApp session is kept after updating — no more Clear Data + re-scanning the QR code.\n\nWhat's new:\n• 'Check for Updates' button added to the About window (Ctrl+Q).\n\nNote: this update properly delivers the splash & WhatsApp fixes that did not take effect in 2.8.14.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.13/SHANEX.Print.Manager.Pro.2.8.13.msi",
-    "sha256": "969273db32490445b2cd49b90473135e5066d4d8c155e03bc793cd16c8272d86"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.15/SHANEX.Print.Manager.Pro.2.8.15.msi",
+    "sha256": "18dfff61eb8269b3eeefeb82bea822225c1a243b3c8111c3ce44bcea59cf021c"
   },
   "tips": []
 }
