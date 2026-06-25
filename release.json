@@ -1,5 +1,5 @@
 {
-  "version": "2.8.15",
+  "version": "2.8.21",
   "releaseType": "optional",
   "minVersion": "2.0.0",
   "changelog": "Printing:\n- Booklet duplex flip now defaults to Long Edge (book-style), correct on most printers.\n- Added 8/10/12/14/16-up print sizes.\n- Receipt printer paper-size list filtered to sizes the printer actually supports.\n\nWhatsApp:\n- Fixed duplicate customer detection after clearing WhatsApp data.\n- Fixed WhatsApp slowing down as the message log grew.\n- Fixed repeated Status-update saves; added an ignore toggle.\n\nBusiness Intelligence:\n- Export Report now includes every dashboard figure.\n- Added a date-range picker (Today/Yesterday/Week/Month/Quarter/Year/Custom).\n- Added an Excel export option alongside PDF.",
@@ -7,5 +7,17 @@
     "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.21/SHANEX.Print.Manager.Pro.2.8.21.msi",
     "sha256": "40630796f29c0a9510166c298562439a813a1dc486b3bcd330903cbf658bbcd1"
   },
-  "tips": "ගැටලු හා නවතම අප්ඩේට්ස් වල විස්තර දැනගන්න ජොයින් වෙන්න අපේ වට්සැප් එකට"
+  "tips": [
+    {
+      "title": "New: Image Crop",
+      "body": "Right-click any image and choose Crop Image to trim it before printing.",
+      "image": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMDAiIGhlaWdodD0iMTYwIiB2aWV3Qm94PSIwIDAgMzAwIDE2MCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNjM2NmYxIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjYTg1NWY3Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjMwMCIgaGVpZ2h0PSIxNjAiIHJ4PSIxNCIgZmlsbD0idXJsKCNnKSIvPjx0ZXh0IHg9IjE1MCIgeT0iNDYiIGZvbnQtZmFtaWx5PSJTZWdvZSBVSSwgQXJpYWwiIGZvbnQtc2l6ZT0iMTUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBsZXR0ZXItc3BhY2luZz0iMiI+U0hBTkVYIFRJUDwvdGV4dD48dGV4dCB4PSIxNTAiIHk9Ijg2IiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEFyaWFsIiBmb250LXNpemU9IjE3IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TmV3OiBJbWFnZSBDcm9wPC90ZXh0Pjx0ZXh0IHg9IjE1MCIgeT0iMTEyIiBmb250LWZhbWlseT0iU2Vnb2UgVUksIEFyaWFsIiBmb250LXNpemU9IjExIiBmaWxsPSIjZWVmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5SaWdodC1jbGljayBhbnkgaW1hZ2UgYW5kIGNob29zZTwvdGV4dD48dGV4dCB4PSIxNTAiIHk9IjEzMCIgZm9udC1mYW1pbHk9IlNlZ29lIFVJLCBBcmlhbCIgZm9udC1zaXplPSIxMSIgZmlsbD0iI2VlZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+Q3JvcCBJbWFnZSB0byB0cmltIGJlZm9yZSBwcmludGluZy48L3RleHQ+PC9zdmc+",
+      "imageWidth": 300,
+      "imageHeight": 160
+    },
+    {
+      "title": "Tip",
+      "body": "Add your papers in Settings -> Pricing to track material stock automatically."
+    }
+  ]
 }
