@@ -1,11 +1,11 @@
 {
-  "version": "2.8.15",
+  "version": "2.8.21",
   "releaseType": "optional",
   "minVersion": "2.0.0",
-  "changelog": "Startup:\n• The splash screen now shows reliably when you open the app.\n\nWhatsApp:\n• Your WhatsApp session is kept after updating — no more Clear Data + re-scanning the QR code.\n\nWhat's new:\n• 'Check for Updates' button added to the About window (Ctrl+Q).\n\nNote: this update properly delivers the splash & WhatsApp fixes that did not take effect in 2.8.14.",
+  "changelog": "Printing:\n- Booklet duplex flip now defaults to Long Edge (book-style), correct on most printers.\n- Added 8/10/12/14/16-up print sizes.\n- Receipt printer paper-size list filtered to sizes the printer actually supports.\n\nWhatsApp:\n- Fixed duplicate customer detection after clearing WhatsApp data.\n- Fixed WhatsApp slowing down as the message log grew.\n- Fixed repeated Status-update saves; added an ignore toggle.\n\nBusiness Intelligence:\n- Export Report now includes every dashboard figure.\n- Added a date-range picker (Today/Yesterday/Week/Month/Quarter/Year/Custom).\n- Added an Excel export option alongside PDF.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.15/SHANEX.Print.Manager.Pro.2.8.15.msi",
-    "sha256": "18dfff61eb8269b3eeefeb82bea822225c1a243b3c8111c3ce44bcea59cf021c"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.21/SHANEX.Print.Manager.Pro.2.8.21.msi",
+    "sha256": "40630796f29c0a9510166c298562439a813a1dc486b3bcd330903cbf658bbcd1"
   },
   "tips": []
 }
