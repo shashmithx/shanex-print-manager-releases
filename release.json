@@ -1,5 +1,5 @@
 {
-  "version": "2.8.21",
+  "version": "2.8.15",
   "releaseType": "optional",
   "minVersion": "2.0.0",
   "changelog": "Printing:\n- Booklet duplex flip now defaults to Long Edge (book-style), correct on most printers.\n- Added 8/10/12/14/16-up print sizes.\n- Receipt printer paper-size list filtered to sizes the printer actually supports.\n\nWhatsApp:\n- Fixed duplicate customer detection after clearing WhatsApp data.\n- Fixed WhatsApp slowing down as the message log grew.\n- Fixed repeated Status-update saves; added an ignore toggle.\n\nBusiness Intelligence:\n- Export Report now includes every dashboard figure.\n- Added a date-range picker (Today/Yesterday/Week/Month/Quarter/Year/Custom).\n- Added an Excel export option alongside PDF.",
