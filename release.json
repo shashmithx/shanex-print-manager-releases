@@ -1,11 +1,11 @@
 {
-  "version": "2.8.15",
-  "releaseType": "optional",
-  "minVersion": "2.0.0",
-  "changelog": "Printing:\n- Booklet duplex flip now defaults to Long Edge (book-style), correct on most printers.\n- Added 8/10/12/14/16-up print sizes.\n- Receipt printer paper-size list filtered to sizes the printer actually supports.\n\nWhatsApp:\n- Fixed duplicate customer detection after clearing WhatsApp data.\n- Fixed WhatsApp slowing down as the message log grew.\n- Fixed repeated Status-update saves; added an ignore toggle.\n\nBusiness Intelligence:\n- Export Report now includes every dashboard figure.\n- Added a date-range picker (Today/Yesterday/Week/Month/Quarter/Year/Custom).\n- Added an Excel export option alongside PDF.",
+  "version": "3.0.0",
+  "releaseType": "force",
+  "minVersion": "3.0.0",
+  "changelog": "WhatsApp:\n- Incoming text messages now move the customer to the top of the list (not just file messages).\n- 'View WhatsApp Chat' is now a movable, messenger-style chat head: drag it anywhere and minimize it to a circular badge with the customer's profile picture. The app stays usable while it's open.\n- Click a media/document in the chat to instantly select that file in the print list.\n- Tidier minimize / close buttons.\n\nUI:\n- More crisp SVG icons across the centre toolbar.\n\nNote: this is a required update.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v2.8.21/SHANEX.Print.Manager.Pro.2.8.21.msi",
-    "sha256": "40630796f29c0a9510166c298562439a813a1dc486b3bcd330903cbf658bbcd1"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.0.0/SHANEX.Print.Manager.Pro.3.0.0.msi",
+    "sha256": "2ba71ade8a1cc9e30d39951e225dc85b975021dc8a2885d6112f833db87e16a5"
   },
   "tips": [
     {
