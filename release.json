@@ -1,6 +1,6 @@
 {
   "version": "3.0.0",
-  "releaseType": "optional",
+  "releaseType": "force",
   "minVersion": "3.0.0",
   "changelog": "WhatsApp:\n- Incoming text messages now move the customer to the top of the list (not just file messages).\n- 'View WhatsApp Chat' is now a movable, messenger-style chat head: drag it anywhere and minimize it to a circular badge with the customer's profile picture. The app stays usable while it's open.\n- Click a media/document in the chat to instantly select that file in the print list.\n- Tidier minimize / close buttons.\n\nUI:\n- More crisp SVG icons across the centre toolbar.\n\nNote: this is a required update.",
   "installer": {
