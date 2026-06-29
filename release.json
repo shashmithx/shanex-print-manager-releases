@@ -1,8 +1,8 @@
 {
-  "version": "3.0.0",
+  "version": "3.9.0",
   "releaseType": "force",
   "minVersion": "3.0.0",
-  "changelog": "WhatsApp:\n- Incoming text messages now move the customer to the top of the list (not just file messages).\n- 'View WhatsApp Chat' is now a movable, messenger-style chat head: drag it anywhere and minimize it to a circular badge with the customer's profile picture. The app stays usable while it's open.\n- Click a media/document in the chat to instantly select that file in the print list.\n- Tidier minimize / close buttons.\n\nUI:\n- More crisp SVG icons across the centre toolbar.\n\nNote: this is a required update.",
+  "changelog": "සමාවෙන්න. මුදුකාංගයේ ඇති ආරක්ෂිත දුර්වලතාවයක් හේතුවෙන්, 2026.06.30 වන දින සම්පූර්ණයෙන්ම පද්ධතිය අක්‍රිය කරනු ලැබේ. සිදුවන අපහසුතාවයට අපගේ කනගාටුව ප්‍රකාශ කරන අතර, මෙය සිදු කරනු ලබන්නේ ඔබගේම ආරක්ෂාව සඳහා බව කරුණාවෙන් සලකන්න. - shashmithx - shanex.lk",
   "installer": {
     "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.0.0/SHANEX.Print.Manager.Pro.3.0.0.msi",
     "sha256": "2ba71ade8a1cc9e30d39951e225dc85b975021dc8a2885d6112f833db87e16a5"
