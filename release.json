@@ -1,11 +1,11 @@
 {
   "version": "3.1.0",
   "releaseType": "force",
-  "minVersion": "3.0.0",
-  "changelog": "සමාවෙන්න. මුදුකාංගයේ ඇති ආරක්ෂිත දුර්වලතාවයක් හේතුවෙන්, 2026.06.30 වන දින සම්පූර්ණයෙන්ම පද්ධතිය අක්‍රිය කරනු ලැබේ. සිදුවන අපහසුතාවයට අපගේ කනගාටුව ප්‍රකාශ කරන අතර, මෙය සිදු කරනු ලබන්නේ ඔබගේම ආරක්ෂාව සඳහා බව කරුණාවෙන් සලකන්න. - shashmithx - shanex.lk",
+  "minVersion": "3.1.0",
+  "changelog": "WhatsApp:\n- Human-like sending (marks seen + 'typing…') to avoid spam blocks.\n- Automated messages now arrive as a polished receipt IMAGE with your shop logo (print-ready, payment, credit reminder/settlement).\n- Unread green light on customer cards; Auto Speed-Up on a schedule.\n\nCoverage-based pricing (new):\n- Price by actual ink coverage. Separate B&W / Colour models you train with sample files.\n\nSelection & files:\n- New shortcuts (Ctrl+A today, Ctrl+Shift+A all, Alt+A, Ctrl+I invert, Shift+Delete force-delete), Force Select mode, collapsible POS products group.\n\nReliability:\n- Fixed WhatsApp media not downloading / downloading twice / 'missing' after restart.\n- Files log capped to 2 days; stock adjustments fixed; better update check; live print progress.\n\nNote: this is a required update.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.0.0/SHANEX.Print.Manager.Pro.3.0.0.msi",
-    "sha256": "2ba71ade8a1cc9e30d39951e225dc85b975021dc8a2885d6112f833db87e16a5"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.1.0/SHANEX.Print.Manager.Pro.3.1.0.msi",
+    "sha256": "2a9e0190a8da7d13c6572d70344f82bf8ba228db617562cc5f6282c842bd8576"
   },
   "tips": [
     {
