@@ -1,19 +1,19 @@
 {
-  "version": "3.1.0",
+  "version": "3.3.0",
   "releaseType": "force",
   "minVersion": "3.1.0",
-  "changelog": "WhatsApp:\n- Human-like sending (marks seen + 'typing…') to avoid spam blocks.\n- Automated messages now arrive as a polished receipt IMAGE with your shop logo (print-ready, payment, credit reminder/settlement).\n- Unread green light on customer cards; Auto Speed-Up on a schedule.\n\nCoverage-based pricing (new):\n- Price by actual ink coverage. Separate B&W / Colour models you train with sample files.\n\nSelection & files:\n- New shortcuts (Ctrl+A today, Ctrl+Shift+A all, Alt+A, Ctrl+I invert, Shift+Delete force-delete), Force Select mode, collapsible POS products group.\n\nReliability:\n- Fixed WhatsApp media not downloading / downloading twice / 'missing' after restart.\n- Files log capped to 2 days; stock adjustments fixed; better update check; live print progress.\n\nNote: this is a required update.",
+  "changelog": "Fixed Print timeout error, Improved Print Speeed. WhatsNew : Now you can open orginal whatsapp web from our app, Now you can group files (Ctrl+G) (Ctrl+Shift+G), Also you can make dublicates. ",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.1.0/SHANEX.Print.Manager.Pro.3.1.0.msi",
-    "sha256": "2a9e0190a8da7d13c6572d70344f82bf8ba228db617562cc5f6282c842bd8576"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.3.0/SHANEX-Print-Manager-Pro-3.3.0.msi",
+    "sha256": "150961ecbec87e4ad4c0bc50630532b1ba7b1f2a5bf957af54b4332f535c0b41"
   },
   "tips": [
     {
-      "title": "What’s New",
-      "body": "Right-click any image and choose Crop Image to trim it before printing.",
-      "image": "https://raw.githubusercontent.com/shashmithx/shanex-print-manager-releases/master/tip%2001.JPG",
-      "imageWidth": 439,
-      "imageHeight": 289
+      "title": "කරුනාකර අපගේ වට්සැප් සමූහයට එකතු වෙන්න.",
+      "body": "වට්සැප් ගෲප් එකේදී: ප්‍රින්ටින්ග් වලට අදාල ප්‍රශ්න, මෘදුකාංගයේ දෝශ නිරාකරණය, මෘදුකාංගයේ ක්‍රියාකාරීත්වය පැහැදිලි කිරීම, වැනි බොහෝ දේ සිදු කෙරේ. 0704668661 අංකයට වට්සැප් මැසේජ් එකක් දාන්​න",
+      "image": "https://media.licdn.com/dms/image/v2/C4D12AQGAXCge00qXvA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520153923692?e=2147483647&v=beta&t=1zLfFLT3VUI6QsPDyMvht2ocLcN-jCni5BTzCaS70_U",
+      "imageWidth": 255,
+      "imageHeight": 255
     },
     {
       "title": "Tip",
