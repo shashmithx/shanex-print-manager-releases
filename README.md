@@ -2,7 +2,7 @@
 
 Official installer downloads for **SHANEX Print Manager Pro**.
 
-## Latest: v2.8.15
+## Latest: v3.3.0
 - Splash screen now shows reliably on startup.
 - WhatsApp session is kept after updating (no Clear Data + QR re-scan).
 - New **Check for Updates** button in About (`Ctrl+Q`).
