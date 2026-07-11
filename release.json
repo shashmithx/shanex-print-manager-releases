@@ -1,7 +1,7 @@
 {
   "version": "3.3.0",
   "releaseType": "force",
-  "minVersion": "3.1.0",
+  "minVersion": "3.0.0",
   "changelog": "Fixed Print timeout error, Improved Print Speeed. WhatsNew : Now you can open orginal whatsapp web from our app, Now you can group files (Ctrl+G) (Ctrl+Shift+G), Also you can make dublicates. ",
   "installer": {
     "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.3.0/SHANEX-Print-Manager-Pro-3.3.0.msi",
