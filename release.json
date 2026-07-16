@@ -1,6 +1,6 @@
 {
   "version": "3.5.1",
-  "releaseType": ",force",
+  "releaseType": "normal",
   "minVersion": "3.1.0",
   "changelog": "Updated WhatsApp API ",
   "installer": {
