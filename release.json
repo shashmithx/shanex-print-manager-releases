@@ -1,11 +1,11 @@
 {
-  "version": "3.3.1",
-  "releaseType": ",force",
-  "minVersion": "2.7.5",
+  "version": "3.5.1",
+  "releaseType": "normal",
+  "minVersion": "3.1.0",
   "changelog": "Updated WhatsApp API ",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.2.0/SHANEX.Print.Manager.Pro.Setup.3.3.1.exe",
-    "sha256": "8879EA0F97A6668E32DB9D56FF2E1A6E1D8E64AE64C6BE345202A5D79225CF97"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v3.5.1/SHANEX-Print-Manager-Pro-Setup-3.5.1.exe",
+    "sha256": "C8639AF6432BB31FDC4F97D1AB51BBDCC839BEBF15C08F3068DB0CFEC7DA4D81"
   },
   "tips": [
     {
