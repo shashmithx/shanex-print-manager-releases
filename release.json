@@ -1,23 +1,23 @@
 {
-  "version": "4.0.0",
+  "version": "4.1.3",
   "releaseType": "normal",
   "minVersion": "3.1.0",
-  "changelog": "Updated WhatsApp API ",
+  "changelog": "අලුත් වැඩ ගොඩයි | Visiting card planning- මේක දාන්නම ඕනෙ අප්ඩේට් එකක්",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v4.0.0/SHANEX.Print.Manager.Pro.Setup.4.0.0.exe",
-    "sha256": "24dc21acc731e563e7bc13905e95df830feac4065d7e4ed6f06a78ddb5adda66"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/4.1.3/SHANEX.Print.Manager.Pro.Setup.4.1.3.exe",
+    "sha256": "0F1E32A9E7A84A376A2E9D6A5DE4628C5138E12C614192BE573865B6CC0CB30E"
   },
   "tips": [
     {
-      "title": "කරුනාකර අපගේ වට්සැප් සමූහයට එකතු වෙන්න.",
-      "body": "වට්සැප් ගෲප් එකේදී: ප්‍රින්ටින්ග් වලට අදාල ප්‍රශ්න, මෘදුකාංගයේ දෝශ නිරාකරණය, මෘදුකාංගයේ ක්‍රියාකාරීත්වය පැහැදිලි කිරීම, වැනි බොහෝ දේ සිදු කෙරේ. 0704668661 අංකයට වට්සැප් මැසේජ් එකක් දාන්​න",
-      "image": "https://media.licdn.com/dms/image/v2/C4D12AQGAXCge00qXvA/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1520153923692?e=2147483647&v=beta&t=1zLfFLT3VUI6QsPDyMvht2ocLcN-jCni5BTzCaS70_U",
-      "imageWidth": 255,
-      "imageHeight": 255
+      "title": "බිස්නස් කාඩ් ප්‍රින්ට් කරන්න දැන් ලේසියි",
+      "body": "බිස්නස් කාඩ් එකේ pdf එක රයිට් ක්ලික් කරලා ඉම්පොසිශන් ටූල්ස් වලට ගිහින් එකපාරින් අප්ස් ගාන කට් මාක්ස් එක්කම ප්ලෑන් කරගන්න (Die/Plotter වලින් කට් කරන්න පාත් ඇතුලත් වේ!",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-mLHHNuurYS11GpCAZIHtip-XOsP0IV2Q0mTk6niI96aBjoTcvjhLfJP&s=10,
+      "imageWidth": 472,
+      "imageHeight": 601
     },
     {
       "title": "Tip",
-      "body": "Add your papers in Settings -> Pricing to track material stock automatically."
+      "body": "ෆන්ශන් කීස් වලට ටෙම්ප්ලීට් Asign කර ප්‍රින්ට් ශොප් එකේ වර්ක්ෆ්ලෝ එක තව ස්පීඩ් කරගන්න"
     }
   ]
 }
