@@ -1,11 +1,11 @@
 {
-  "version": "4.1.3",
+  "version": "4.1.5",
   "releaseType": "normal",
   "minVersion": "3.1.0",
   "changelog": "අලුත් වැඩ ගොඩයි | Visiting card planning- මේක දාන්නම ඕනෙ අප්ඩේට් එකක්",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/4.1.3/SHANEX.Print.Manager.Pro.Setup.4.1.3.exe",
-    "sha256": "0F1E32A9E7A84A376A2E9D6A5DE4628C5138E12C614192BE573865B6CC0CB30E"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/4.1.5/SHANEX.Print.Manager.Pro.Setup.4.1.5.exe",
+    "sha256": "1fc1f178cf411ac3438b010073d0fa430dfc1d8a86d45a6a856a4c9de061f68f"
   },
   "tips": [
     {
