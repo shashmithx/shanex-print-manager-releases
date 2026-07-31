@@ -1,5 +1,5 @@
 {
-    "version":  "4.2.2",
+    "version":  "0.2.2",
     "releaseType":  "normal",
     "minVersion":  "3.1.0",
     "changelog":  "WhatsApp recovery scan now checks only the time the app was closed, plus a 5-minute overlap. Reduced Chrome memory pressure and added storage usage details.",
