@@ -1,11 +1,11 @@
 {
-    "version":  "0.2.2",
+    "version":  "4.2.11",
     "releaseType":  "normal",
     "minVersion":  "3.1.0",
-    "changelog":  "WhatsApp recovery scan now checks only the time the app was closed, plus a 5-minute overlap. Reduced Chrome memory pressure and added storage usage details.",
+    "changelog":  "Reduced CPU/RAM Usage, Pos Upgrade, UI Themes Improvements, Print Quality Improvements",
     "installer":  {
-                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v4.2.2/SHANEX.Print.Manager.Pro.Setup.4.2.2.exe",
-                      "sha256":  "dbb353837a7b587cafc10101c8e8d91f90276ee080696548151d9f98edc751c1"
+                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v4.2.11/SHANEX.Print.Manager.Pro.Setup.4.2.11.exe",
+                      "sha256":  "357a5b636eb92ad6573c019623eb7f18ff445f0d1cccd94d5550747569acd44d"
                   },
     "tips":  [
                  {
