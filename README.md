@@ -1,6 +1,6 @@
-# SHANEX Print Manager Pro v4.1.5
+# SHANEX Print Manager Pro v4.2.11
 
-Release date: 28 July 2026  | 11:20PM
+Release date: 31 July 2026  | 11:10PM
 
 This release focuses on print-production tools, licensing reliability, WhatsApp stability, portable configuration, POS clarity, and general workflow improvements.
 
