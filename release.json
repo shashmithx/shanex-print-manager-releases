@@ -1,23 +1,27 @@
 {
-  "version": "4.1.5",
-  "releaseType": "normal",
-  "minVersion": "3.1.0",
-  "changelog": "අලුත් වැඩ ගොඩයි | Visiting card planning- මේක දාන්නම ඕනෙ අප්ඩේට් එකක්",
-  "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/4.1.5/SHANEX.Print.Manager.Pro.Setup.4.1.5.exe",
-    "sha256": "1fc1f178cf411ac3438b010073d0fa430dfc1d8a86d45a6a856a4c9de061f68f"
-  },
-  "tips": [
-    {
-      "title": "බිස්නස් කාඩ් ප්‍රින්ට් කරන්න දැන් ලේසියි",
-      "body": "බිස්නස් කාඩ් එකේ pdf එක රයිට් ක්ලික් කරලා ඉම්පොසිශන් ටූල්ස් වලට ගිහින් එකපාරින් අප්ස් ගාන කට් මාක්ස් එක්කම ප්ලෑන් කරගන්න (Die/Plotter වලින් කට් කරන්න පාත් ඇතුලත් වේ!",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-mLHHNuurYS11GpCAZIHtip-XOsP0IV2Q0mTk6niI96aBjoTcvjhLfJP&s=10",
-      "imageWidth": 472,
-      "imageHeight": 601
-    },
-    {
-      "title": "Tip",
-      "body": "ෆන්ශන් කීස් වලට ටෙම්ප්ලීට් Asign කර ප්‍රින්ට් ශොප් එකේ වර්ක්ෆ්ලෝ එක තව ස්පීඩ් කරගන්න"
-    }
-  ]
+    "version":  "4.2.11",
+    "releaseType":  "normal",
+    "minVersion":  "3.1.0",
+    "changelog":  "Reduced CPU/RAM Usage, Pos Upgrade, UI Themes Improvements, Print Quality Improvements",
+    "installer":  {
+                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v4.2.11/SHANEX.Print.Manager.Pro.Setup.4.2.11.exe",
+                      "sha256":  "357a5b636eb92ad6573c019623eb7f18ff445f0d1cccd94d5550747569acd44d"
+                  },
+    "tips":  [
+                 {
+                     "title":  "බිස්නස් කාඩ් ප්‍රින්ට් කරන්න දැන් ලේසියි",
+                     "body":  "බිස්නස් කාඩ් එකේ pdf එක රයිට් ක්ලික් කරලා ඉම්පොසිශන් ටූල්ස් වලට ගිහින් එකපාරින් අප්ස් ගාන කට් මාක්ස් එක්කම ප්ලෑන් කරගන්න (Die/Plotter වලින් කට් කරන්න පාත් ඇතුලත් වේ!",
+                     "image":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-mLHHNuurYS11GpCAZIHtip-XOsP0IV2Q0mTk6niI96aBjoTcvjhLfJP\u0026s=10",
+                     "imageWidth":  472,
+                     "imageHeight":  601
+                 },
+                 {
+                     "title":  "Tip",
+                     "body":  "ෆන්ශන් කීස් වලට ටෙම්ප්ලීට් Asign කර ප්‍රින්ට් ශොප් එකේ වර්ක්ෆ්ලෝ එක තව ස්පීඩ් කරගන්න"
+                 }
+             ],
+    "contact_details":  [
+                            "94772818661",
+                            "94704668661"
+                        ]
 }
