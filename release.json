@@ -5,7 +5,7 @@
     "changelog":  "Reduced CPU/RAM Usage, Pos Upgrade, UI Themes Improvements, Print Quality Improvements",
     "installer":  {
                       "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/v4.2.11/SHANEX.Print.Manager.Pro.Setup.4.2.11.exe",
-                      "sha256":  "357a5b636eb92ad6573c019623eb7f18ff445f0d1cccd94d5550747569acd44d"
+                      "sha256":  "e09c3cbfa48d45ea6eb2e4ab452bce0629712afa7cf5b38d3dede115929d5878"
                   },
     "tips":  [
                  {
