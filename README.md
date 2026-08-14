@@ -1,120 +1,85 @@
-# SHANEX Print Manager Pro v4.2.11
+SHANEX Print Manager v5.0.1
 
-Release date: 31 July 2026  | 11:10PM
+SHANEX Print Manager V5 delivers a major workflow, printing, preview, POS, scanner, monitoring, and interface upgrade for busy print shops.
+Highlights
+Modern Interface
 
-This release focuses on print-production tools, licensing reliability, WhatsApp stability, portable configuration, POS clarity, and general workflow improvements.
+    Added optional SHANEX V4 Classic, SHANEX V5, SHANEX macOS Dark, and SHANEX macOS Light themes.
+    Theme selection is saved locally and restored automatically after restart.
+    Improved responsive Center Panel toolbars to prevent overlapping controls on smaller screens.
+    Improved customer cards, spacing, controls, profile-picture display, and phone-number readability.
+    Customer phone-number size can now be adjusted from Settings and applies correctly across all themes.
 
-## Highlights
-- New UI Improvements (Pos, Print Que)
-- Added portable full and selective settings transfer between SHANEX installations.
-- Added advanced global and per-printer X/Y print-position calibration.
-- Added business-card, bill-book and sticker imposition improvements.
-- Upgraded online licensing to signed v3 entitlement and lease tokens.
-- Improved WhatsApp contact, media and international-number handling.
-- Improved POS payment history and print/product grouping.
+Print Queue and File Workflow
 
-## Printing and imposition
+    Click anywhere on a file row to select it, except on interactive controls such as inputs, checkboxes, buttons, and drag handles.
+    Product rows can now be selected directly from the queue.
+    Improved queue spacing, selected states, date grouping, and file-row readability.
+    Improved print template capture and application for printer, tray, paper, media type, print quality, duplex, colour mode, N-up, booklet, and page-selection settings.
+    Improved printer capability loading and printer setting refresh behavior.
+    Added safer handling for stale per-file print settings.
 
-- Added last-used settings restoration and reusable imposition presets.
-- Added automatic source-document size and PDF bleed detection, with manual overrides.
-- Added source-document and export-document summaries.
-- Added configurable cut-mark length and distance from artwork.
-- Added a clean cut-mark mode that avoids unnecessary marks inside artwork.
-- Fixed the imposition preview layout so the preview remains visible on the right.
-- Added separate artwork and output-sheet previews for numbering workflows.
-- Added settings reset controls.
-- Fixed incomplete sheet filling and damaged PDF exports in sticker imposition.
-- Added an option to rotate the lower bill-book row by 180 degrees for outward-facing binding edges.
-- Added sticker numbering with configurable start number, padding, prefix, suffix, font, size, position and colour.
-- Added optional hidden `CutContour` output for plotter and die-cut workflows.
-- Added configurable rounded sticker corners.
-- Added Crash Numbering Gothic and Crash Numbering Serif support.
-- Expanded the B/W sketch filter range with progressively darker strength levels.
+Printing and PDF Reliability
 
-## Print defaults and calibration
+    Improved native PDF print routing and vector-print reliability.
+    Improved handling for fillable PDF forms before printing.
+    Improved Quick Look support for Sinhala fonts, Unicode file paths, page operations, cropping, rotation, and restoration.
+    Improved preview loading behavior for scanned and image-heavy documents.
+    Improved paper size, tray, media type, duplex, and printer quality handling.
+    Added stronger function-key print-template support.
 
-- Added `Settings â†’ Printing Defaults â†’ Advanced Print Settings`.
-- Moved user-facing X/Y calibration controls out of Developer Settings.
-- Added global X and Y offsets.
-- Added independent per-printer X and Y offsets.
-- Added alignment reset and calibration guidance.
-- Preserved compatibility with existing saved offset values.
+Scanner Integration
 
-## Settings transfer
+    Added NAPS2 scanner integration.
+    Added configurable scanner presets, DPI, colour mode, page size, output type, and scanner selection.
+    Added scan-to-PDF and scan-to-image workflows.
+    Added scan preset keyboard shortcuts.
+    Added alternating-page rotation support for scanning workflows.
 
-- Added portable JSON export and import under `Settings â†’ System & Backup`.
-- Added full portable settings export.
-- Added selective export/import for:
-  - Price lists and paper types
-  - Products and variants
-  - Print defaults and X/Y alignment
-  - Print-setting templates
-  - Shortcuts and template keys
-- Selective import changes only the categories contained in the file.
-- Machine-specific paths, licence data and saved account passwords are excluded from portable backups.
+Image Studio and Imposition Tools
 
-## WhatsApp
+    Improved Image Studio controls, layout tools, crop marks, boundaries, PDF import, and output setup.
+    Improved Imposition Tools for business cards, bill numbering, cut marks, carbon-copy planning, and print-ready layouts.
+    Added improved planning previews and custom layout controls.
 
-- Improved contact synchronization reliability.
-- Improved normalization and handling of international phone numbers.
-- Improved media download and missing-file recovery behavior.
-- Improved date-folder rollover for applications left running across multiple days.
-- Improved startup recovery and persisted-log handling.
-- Improved duplicate-file and stale-preview handling.
+POS and Payments
 
-## POS, payments and file status
+    Improved Product Checkout workflow and keyboard navigation (new shortcuts for POS operations).
+    Improved product selection, quantity editing, cart navigation, and customer-queue integration.
+    Added improved product/service handling alongside print jobs.
+    Improved payment, outstanding balance, credit, receipt, and Ready-for-Pickup workflows.
 
-- Products are now displayed with print files according to the date they were added.
-- Added clearer date separators and completed-print indicators.
-- Print items and product items paid together are now stored as a single payment group.
-- Payments can be taken before printing is completed.
-- Added paid-state records and warnings when attempting to charge an already-paid item.
-- Improved visual setting indicators and replaced Unicode status symbols with SVG icons.
-- Improved deleted-file detection to reduce false â€œfile deletedâ€ states.
-- Fixed unwanted automatic chat scrolling while reviewing older messages.
-- Improved print-processing progress feedback.
+WhatsApp and Customer Workflow
 
-## Licensing and telemetry
+    Improved WhatsApp startup recovery and media reconciliation.
+    Improved customer profile-picture loading and caching.
+    Improved Ready-for-Pickup, payment receipt, and customer message workflows.
+    Improved customer search, recent-customer access, and queue navigation.
 
-- Added signed v3 entitlement and lease-token support.
-- Added automatic legacy-licence upgrade to v3 leases.
-- Added remote hardware-ID block checks before lease renewal.
-- Added safe recovery after an administrator removes a hardware block.
-- Added D1 entitlement, lease, trial-extension, emergency-unlock and server-worker schemas.
-- Removed a path that could allow a client ingest credential to add hardware IDs to the block list.
-- Fixed duplicate licence API routes and malformed telemetry D1 writes.
-- Added strict machine-ID validation.
-- Added separate admin and ingest authentication paths.
-- Added Sri Lanka time display for application logs and telemetry dashboards while retaining UTC storage.
+Printer Monitoring and Reports
 
-## Installer
+    Added Printer Monitor and monitoring improvements.
+    Improved printer counter, fault, status, and monitoring workflows.
+    Added better daily reporting and worker activity reporting support.
+    Improved printer capability detection and machine configuration handling.
 
-- Improved the uninstall licence-removal confirmation.
-- Added bilingual Sinhala and English guidance.
-- Licence deletion now defaults to `No` to reduce accidental removal.
-- Temporary cache cleanup is separated from licence-data removal.
-- Customer databases, sales data, print history and business records remain preserved.
+LAN and Multi-PC Workflow
 
-## Fixes and maintenance
+    Improved LAN/server-mode workflow foundations.
+    Improved worker-PC awareness, shared job handling, audit support, and central workflow controls.
+    Improved local database and network configuration groundwork.
 
-- Fixed missing C# dispatcher mappings for licence upgrade, server-token storage, revocation and network diagnostics.
-- Fixed stale licence-gate cache after token renewal or server revocation.
-- Fixed duplicate startup licence refresh behavior.
-- Improved startup diagnostics and error reporting.
-- Added safer D1 indexes for entitlement and lease lookups.
-- Updated Cloudflare Worker configuration and production deployment checks.
+Performance and Reliability
 
-## Upgrade notes
+    Reduced unnecessary preview and media processing.
+    Improved file metadata indexing and queue loading behavior.
+    Improved startup recovery and dependency handling.
+    Improved automatic update reliability.
+    Improved customer-data safety during upgrades and recovery operations.
+    General stability, usability, and performance improvements throughout the application.
 
-- Back up the local database before upgrading.
-- Existing print presets, price lists and printer offsets remain compatible.
-- Restart SHANEX after importing printer, interface or WhatsApp settings.
-- A valid signed v3 lease is required to clear a server-revoked state after an administrator unblocks a machine.
+Upgrade Notes
 
-
-➡️ **[Download the latest release](https://github.com/shashmithx/shanex-print-manager-releases/releases/latest)**
-
-See [all releases](https://github.com/shashmithx/shanex-print-manager-releases/releases) for previous versions.
-
----
-© 2024–2026 SHANEX.LK · Developed by Shashmith Ayoddaya
+    Existing customer data, print settings, and templates are preserved.
+    Existing themes remain available.
+    No manual migration is required for standard local installations.
