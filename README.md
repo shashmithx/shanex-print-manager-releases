@@ -37,6 +37,31 @@ Version 5.0.4 focuses on stability, printer monitoring, live copier workflows, s
 
 ---
 
+## Changelog - v5.0.4
+
+### Added
+
+- Expanded Server Mode foundations for shared and multi-PC print-shop workflows.
+- Added a live photocopy auto-counter workflow.
+- Added live photocopy counter UI updates and state synchronization.
+- Added stronger thermal receipt rendering with high-contrast output support.
+
+### Improved
+
+- Improved SNMP printer/copier polling and monitoring reliability.
+- Refined the center panel and general UI behavior.
+- Improved receipt generation and thermal-printer visibility.
+- Improved live photocopy UI synchronization.
+- Improved operating-mode settings visibility by hiding kiosk-only controls when kiosk mode is disabled.
+
+### Fixed
+
+- Fixed Native AOT pipe response serialization used by native/helper components.
+- Strengthened duplicate file-import suppression to prevent repeated imports of the same incoming file.
+- Improved printing behavior related to light or low-contrast output.
+
+---
+
 ## SHANEX V5 Highlights
 
 ### Modern Interface
