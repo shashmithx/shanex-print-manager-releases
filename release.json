@@ -1,27 +1,27 @@
 {
-    "version":  "5.0.1",
-    "releaseType":  "normal",
-    "minVersion":  "3.1.0",
-    "changelog":  "Reduced CPU/RAM Usage, Pos Upgrade, UI Themes Improvements, Print Quality Improvements",
-    "installer":  {
-                      "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.1/SHANEX.Print.Manager.Pro.Setup.5.0.1.exe",
-                      "sha256":  "80123e9fcced22d6bf2402c1b2860c5e64be04aece51ef9fbd63b13aa9e5d647"
-                  },
-    "tips":  [
-                 {
-                     "title":  "බිල්පොත්/විසිටින්ග් කාඩ් ප්ලෑන් කරන්න",
-                     "body":  "pdf එක රයිට් ක්ලික් කරලා ඉම්පොසිශන් ටූල්ස් වලට ගිහින් එකපාරින් අප්ස් ගාන කට් මාක්ස් එක්කම ප්ලෑන් කරගන්න (Die/Plotter වලින් කට් කරන්න පාත් ඇතුලත් වේ!",
-                     "image":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-mLHHNuurYS11GpCAZIHtip-XOsP0IV2Q0mTk6niI96aBjoTcvjhLfJP\u0026s=10",
-                     "imageWidth":  472,
-                     "imageHeight":  601
-                 },
-                 {
-                     "title":  "Tip",
-                     "body":  "ෆන්ශන් කීස් වලට ටෙම්ප්ලීට් Asign කර ප්‍රින්ට් ශොප් එකේ වර්ක්ෆ්ලෝ එක තව ස්පීඩ් කරගන්න"
-                 }
-             ],
-    "contact_details":  [
-                            "94772818661",
-                            "94704668661"
-                        ]
+  "version": "5.0.4",
+  "releaseType": "normal",
+  "minVersion": "3.1.0",
+  "changelog": "New Server Mode foundations, live photocopy auto counter, improved SNMP printer polling, thermal receipt and print visibility improvements, kiosk settings cleanup, center panel and UI improvements, Native AOT IPC fixes, and stronger duplicate file import protection.",
+  "installer": {
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.4/SHANEX.Print.Manager.Pro.Setup.5.0.4.exe",
+    "sha256": "e924b7421b21b6b037b318c53ef52b3f14520526cda03a75cecc35a8f33d4c58"
+  },
+  "tips": [
+    {
+      "title": "බිල්පොත්/විසිටින්ග් කාඩ් ප්ලෑන් කරන්න",
+      "body": "pdf එක රයිට් ක්ලික් කරලා ඉම්පොසිශන් ටූල්ස් වලට ගිහින් එකපාරින් අප්ස් ගාන කට් මාක්ස් එක්කම ප්ලෑන් කරගන්න (Die/Plotter වලින් කට් කරන්න පාත් ඇතුලත් වේ!",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-mLHHNuurYS11GpCAZIHtip-XOsP0IV2Q0mTk6niI96aBjoTcvjhLfJP&s=10",
+      "imageWidth": 472,
+      "imageHeight": 601
+    },
+    {
+      "title": "Tip",
+      "body": "ෆන්ශන් කීස් වලට ටෙම්ප්ලීට් Asign කර ප්‍රින්ට් ශොප් එකේ වර්ක්ෆ්ලෝ එක තව ස්පීඩ් කරගන්න"
+    }
+  ],
+  "contact_details": [
+    "94772818661",
+    "94704668661"
+  ]
 }
