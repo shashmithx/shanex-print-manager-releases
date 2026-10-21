@@ -1,4 +1,26 @@
-# SHANEX Print Manager v5.0.4
+# 🚀 SHANEX Print Manager V6 Native
+
+**Your Entire Print Shop. One Powerful App.**
+
+**Four ways to receive orders. One smart way to manage them.**
+
+🌐 **Online Printing** · 🏪 **Self-Service Kiosk** · 💬 **WhatsApp Printing** · 🚶 **Walk-in Jobs**
+
+🗂️ **Live Job Dashboard** · 🧮 **Smart Print Estimator** · 🖨️ **Smart Printing** · 👁️ **Quick Look**
+
+💰 **Business Management** · ⚡ **All-New Native Windows Experience**
+
+**More Orders. Less Effort. Bigger Possibilities.**
+
+➡️ **[Explore V6 Native Release Highlights](V6_NATIVE_RELEASE_NOTES.md)**
+
+📦 **[View Releases & Downloads](https://github.com/shashmithx/shanex-print-manager-releases/releases)**
+
+> Feature availability varies by build. Please check individual release notes before installing.
+
+---
+
+## Previous Version: V5.0.4
 
 SHANEX Print Manager Pro is a print-shop workflow platform for customer jobs, PDF printing, POS, scanning, printer monitoring, WhatsApp-assisted workflows, and multi-PC shop operations.
 
