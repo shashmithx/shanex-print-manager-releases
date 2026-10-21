@@ -12,7 +12,9 @@
 
 **More Orders. Less Effort. Bigger Possibilities.**
 
-➡️ **[Explore V6 Native Release Highlights](V6_NATIVE_RELEASE_NOTES.md)**
+➡️ **[V6.0.4 Release Candidate Highlights](V6.0.4_RELEASE_NOTES.md)**
+
+📋 [All V6 Native Highlights](V6_NATIVE_RELEASE_NOTES.md)
 
 📦 **[View Releases & Downloads](https://github.com/shashmithx/shanex-print-manager-releases/releases)**
 
