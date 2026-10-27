@@ -1,3 +1,15 @@
+# SHANEX Print Manager Pro v5.0.9 — Download available
+
+[Download for Windows x64](https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.9/SHANEX-Print-Manager-Pro-Setup-5.0.9.exe)
+
+Customized animated installer. Size: 185,180,511 bytes. Unsigned. Build, payload, version and integrity checks passed; installation and animation have not been visually verified. This installer is for clean installations; migration from older NSIS/MSI installations remains unverified.
+
+SHA-256: ecb6e8f6fb0c3fbb53efe91f0c38e4df2e61a21555218de93acc2f6cebc4448e
+
+[v5.0.9 release notes](V5.0.9_RELEASE_NOTES.md)
+
+---
+
 # 🚀 SHANEX Print Manager V6 Native
 
 **Your Entire Print Shop. One Powerful App.**
