@@ -1,11 +1,11 @@
 {
-  "version": "5.0.4",
+  "version": "5.0.9",
   "releaseType": "normal",
   "minVersion": "3.1.0",
-  "changelog": "New Server Mode foundations, live photocopy auto counter, improved SNMP printer polling, thermal receipt and print visibility improvements, kiosk settings cleanup, center panel and UI improvements, Native AOT IPC fixes, and stronger duplicate file import protection.",
+  "changelog": "What's new in v5.0.9:\n• Online Orders (Beta): Receive website orders, manage online/WhatsApp/local jobs in a unified dashboard, review print settings and synchronize status with recovery after reconnection.\n• WhatsApp Image Receipts: Redesigned digital payment receipts and Ready for Collection cards, clearer payment breakdowns and optional customer profile pictures.\n• Printing: Improved black-and-white PDF output, job cancellation, tray selection and progress indicators.\n• Interface: Refreshed themes and better WhatsApp profile picture recovery.\nInstaller download coming soon.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.4/SHANEX.Print.Manager.Pro.Setup.5.0.4.exe",
-    "sha256": "e924b7421b21b6b037b318c53ef52b3f14520526cda03a75cecc35a8f33d4c58"
+    "url": "",
+    "sha256": ""
   },
   "tips": [
     {
