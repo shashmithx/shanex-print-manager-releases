@@ -1,27 +1,33 @@
 {
-  "version": "5.0.9",
-  "releaseType": "normal",
-  "minVersion": "3.1.0",
-  "changelog": "What's new in v5.0.9:\n• Online Orders (Beta): Receive website orders, manage online/WhatsApp/local jobs in a unified dashboard, review print settings and synchronize status with recovery after reconnection.\n• WhatsApp Image Receipts: Redesigned digital payment receipts and Ready for Collection cards, clearer payment breakdowns and optional customer profile pictures.\n• Printing: Improved black-and-white PDF output, job cancellation, tray selection and progress indicators.\n• Interface: Refreshed themes and better WhatsApp profile picture recovery.\nInstaller download coming soon.",
-  "installer": {
-    "url": "",
-    "sha256": ""
-  },
-  "tips": [
-    {
-      "title": "බිල්පොත්/විසිටින්ග් කාඩ් ප්ලෑන් කරන්න",
-      "body": "pdf එක රයිට් ක්ලික් කරලා ඉම්පොසිශන් ටූල්ස් වලට ගිහින් එකපාරින් අප්ස් ගාන කට් මාක්ස් එක්කම ප්ලෑන් කරගන්න (Die/Plotter වලින් කට් කරන්න පාත් ඇතුලත් වේ!",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-mLHHNuurYS11GpCAZIHtip-XOsP0IV2Q0mTk6niI96aBjoTcvjhLfJP&s=10",
-      "imageWidth": 472,
-      "imageHeight": 601
-    },
-    {
-      "title": "Tip",
-      "body": "ෆන්ශන් කීස් වලට ටෙම්ප්ලීට් Asign කර ප්‍රින්ට් ශොප් එකේ වර්ක්ෆ්ලෝ එක තව ස්පීඩ් කරගන්න"
-    }
-  ],
-  "contact_details": [
-    "94772818661",
-    "94704668661"
-  ]
+    "version":  "5.0.9",
+    "releaseType":  "normal",
+    "minVersion":  "3.1.0",
+    "changelog":  "What\u0027s new in v5.0.9:\n• Online Orders (Beta): Receive website orders, manage online/WhatsApp/local jobs in a unified dashboard, review print settings and synchronize status with recovery after reconnection.\n• WhatsApp Image Receipts: Redesigned digital payment receipts and Ready for Collection cards, clearer payment breakdowns and optional customer profile pictures.\n• Printing: Improved black-and-white PDF output, job cancellation, tray selection and progress indicators.\n• Interface: Refreshed themes and better WhatsApp profile picture recovery.\nAnimated installer manual download: https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.9/SHANEX-Print-Manager-Pro-Setup-5.0.9.exe\nClean installations only; legacy installer migration remains unverified.",
+    "installer":  {
+                      "url":  "",
+                      "sha256":  ""
+                  },
+    "tips":  [
+                 {
+                     "title":  "බිල්පොත්/විසිටින්ග් කාඩ් ප්ලෑන් කරන්න",
+                     "body":  "pdf එක රයිට් ක්ලික් කරලා ඉම්පොසිශන් ටූල්ස් වලට ගිහින් එකපාරින් අප්ස් ගාන කට් මාක්ස් එක්කම ප්ලෑන් කරගන්න (Die/Plotter වලින් කට් කරන්න පාත් ඇතුලත් වේ!",
+                     "image":  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8-mLHHNuurYS11GpCAZIHtip-XOsP0IV2Q0mTk6niI96aBjoTcvjhLfJP\u0026s=10",
+                     "imageWidth":  472,
+                     "imageHeight":  601
+                 },
+                 {
+                     "title":  "Tip",
+                     "body":  "ෆන්ශන් කීස් වලට ටෙම්ප්ලීට් Asign කර ප්‍රින්ට් ශොප් එකේ වර්ක්ෆ්ලෝ එක තව ස්පීඩ් කරගන්න"
+                 }
+             ],
+    "contact_details":  [
+                            "94772818661",
+                            "94704668661"
+                        ],
+    "manualDownload":  {
+                           "cleanInstallOnly":  true,
+                           "url":  "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.9/SHANEX-Print-Manager-Pro-Setup-5.0.9.exe",
+                           "sha256":  "ecb6e8f6fb0c3fbb53efe91f0c38e4df2e61a21555218de93acc2f6cebc4448e",
+                           "format":  "inno"
+                       }
 }
