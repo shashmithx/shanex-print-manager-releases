@@ -1,11 +1,11 @@
 {
-  "version": "5.0.10",
+  "version": "5.0.11",
   "releaseType": "optional",
   "minVersion": "3.1.0",
-  "changelog": "What's new in v5.0.10:\n- SHANEX-branded setup with no Inno name in the filename or setup title.\n- Setup checks running processes without WMI, fixing the Windows Management Instrumentation verification error.\n- Interactive removal of older NSIS/MSI installations; choose No if asked to remove license data.\n- Eight material themes, natural dark palettes, accent color switcher and compact V4 customer cards.\n- WhatsApp browser stability and standalone job-save fixes.\n- Force Select improvements and session/PDF performance updates.\nLegacy migration, sustained live WhatsApp and physical printer acceptance remain pending. Installer is unsigned.",
+  "changelog": "SHANEX Print Manager Pro v5.0.11\n\n- Fix repeated WhatsApp/watcher queue imports and notifications after acknowledgement failures.\n- Load and reconcile only the selected customer's folder; avoid historical file inspection at Windows watcher startup.\n- Restore incoming-file visibility in deferred customer queues and preserve printing settings, selection, unread indicators and Force Select review.\n- Fix the local deferred-save/hydration baseline race that could produce false standalone save conflicts.\n- Back off failed file inspections, retain recoverable inbox records and include source paths/message IDs in diagnostics.\n- Keep the SHANEX-branded Windows installer and interactive removal of registered older versions.\n\nInstaller is unsigned. Live WhatsApp/UNC recovery, legacy-upgrade acceptance, sustained idle CPU and physical printing validation remain pending. Rescan/profile-script errors and unexplained window closures are not claimed fixed.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.10/SHANEX-Print-Manager-Pro-Setup-5.0.10.exe",
-    "sha256": "21b94d8f04311fe04062ac2d97e6f9f26e6cb739e583c3e0a4a75f4f94dd9ba2",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.11/SHANEX-Print-Manager-Pro-Setup-5.0.11.exe",
+    "sha256": "f545636f5e64059f14fbbef24c8ac4541d1ae570e2c39228c26a7f938d153f5d",
     "format": "inno"
   },
   "tips": [
@@ -26,8 +26,8 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.10/SHANEX-Print-Manager-Pro-Setup-5.0.10.exe",
-    "sha256": "21b94d8f04311fe04062ac2d97e6f9f26e6cb739e583c3e0a4a75f4f94dd9ba2",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.11/SHANEX-Print-Manager-Pro-Setup-5.0.11.exe",
+    "sha256": "f545636f5e64059f14fbbef24c8ac4541d1ae570e2c39228c26a7f938d153f5d",
     "format": "inno",
     "cleanInstallOnly": false,
     "legacyRemovalMode": "interactive-registered-uninstaller",
