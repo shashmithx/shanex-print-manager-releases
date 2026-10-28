@@ -2,10 +2,10 @@
   "version": "5.0.10",
   "releaseType": "optional",
   "minVersion": "3.1.0",
-  "changelog": "What's new in v5.0.10:\n- Eight material themes with custom icons, light/dark modes and upgraded Liquid Glass.\n- Force Select improvements for selection, editing and eligible local-file printing.\n- WhatsApp browser recovery, health-check and single-window improvements.\n- Session persistence and PDF preview performance improvements.\nPublished animated installer: clean installations only; legacy migration remains unverified. The separate local upgrade-fix installer and later V4 sidebar spacing change are not included in this published asset.",
+  "changelog": "What's new in v5.0.10:\n- Material themes, custom icons and Force Select improvements.\n- WhatsApp browser recovery and single-window improvements.\n- Session persistence and PDF preview performance improvements.\n- Corrected animated installer: offers interactive removal of older NSIS/MSI installations instead of blocking setup. Choose No if the old uninstaller asks to remove license data.\nReal-machine legacy migration acceptance remains pending. Later accent-switcher, dark-palette and standalone-session fixes are source-only and are not included in this installer.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.10/SHANEX-Print-Manager-Pro-Inno-Setup-5.0.10.exe",
-    "sha256": "4702a890d490a188b24afe6812e8514b9f8b00dc331678bfaf9fa7c35b76b427",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.10/SHANEX-Print-Manager-Pro-Inno-Setup-5.0.10-Upgrade-Fix.exe",
+    "sha256": "ba36a0d7630ec131f312b19d99b3bc82a00a1d553970980443f44ba771111d05",
     "format": "inno"
   },
   "tips": [
@@ -26,9 +26,11 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.10/SHANEX-Print-Manager-Pro-Inno-Setup-5.0.10.exe",
-    "sha256": "4702a890d490a188b24afe6812e8514b9f8b00dc331678bfaf9fa7c35b76b427",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.10/SHANEX-Print-Manager-Pro-Inno-Setup-5.0.10-Upgrade-Fix.exe",
+    "sha256": "ba36a0d7630ec131f312b19d99b3bc82a00a1d553970980443f44ba771111d05",
     "format": "inno",
-    "cleanInstallOnly": true
+    "cleanInstallOnly": false,
+    "legacyRemovalMode": "interactive-registered-uninstaller",
+    "legacyMigrationVerified": false
   }
 }
