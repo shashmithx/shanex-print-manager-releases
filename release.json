@@ -1,11 +1,11 @@
 {
-  "version": "5.0.12",
+  "version": "5.1.4",
   "releaseType": "optional",
   "minVersion": "3.1.0",
-  "changelog": "SHANEX Print Manager Pro v5.0.12\n\n- Fix repeated WhatsApp duplicate warnings: notify after durable customer import and deduplicate replayed deliveries.\n- Preserve hydrated session baselines and deferred file overlays, existing ownership, print settings and inbox identities.\n- Keep standalone recovery independent of stale LAN outbox entries; local WhatsApp printing bypasses the remote SWIP operation queue.\n- Add visible Select, Options, Cancel and Delete-from-queue actions and right-click menus to job cards.\n- Default dashboard date filters to Today and keep long print-setting badges compact.\n- Retain protected website order validation and active-print removal safeguards.\n\nInstaller is unsigned. Live WhatsApp/restart, UNC storage, legacy-upgrade and physical-output acceptance remain pending. Rescan/profile-script errors and unexplained window closures are not claimed fixed.",
+  "changelog": "SHANEX Print Manager Pro v5.1.4\n\n- Improved the user experience by preventing repeated non-critical background error and warning pop-ups.\n- Background issues are now recorded in logs instead of interrupting the interface.\n\nImportant errors may still require attention; this update does not guarantee that all underlying issues are resolved.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.12/SHANEX-Print-Manager-Pro-Setup-5.0.12.exe",
-    "sha256": "08821bdc7eb7b0aa8bdcaea6104398b708ca152460ddd6b5b6ec9e576a1338f6",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.1.4/SHANEX-Print-Manager-Pro-Setup-5.1.4.exe",
+    "sha256": "42223f8d1fa14204d838ea8771dfc997f233bd21e7fc2aba22d34ae2d55ff45f",
     "format": "inno"
   },
   "tips": [
@@ -26,8 +26,8 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.12/SHANEX-Print-Manager-Pro-Setup-5.0.12.exe",
-    "sha256": "08821bdc7eb7b0aa8bdcaea6104398b708ca152460ddd6b5b6ec9e576a1338f6",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.1.4/SHANEX-Print-Manager-Pro-Setup-5.1.4.exe",
+    "sha256": "42223f8d1fa14204d838ea8771dfc997f233bd21e7fc2aba22d34ae2d55ff45f",
     "format": "inno",
     "cleanInstallOnly": false,
     "legacyRemovalMode": "interactive-registered-uninstaller",
