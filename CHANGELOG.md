@@ -1,5 +1,7 @@
 # Changelog
 
+All notable user-facing changes to SHANEX Print Manager Pro are documented here.
+
 ## v5.1.4 - 2026-11-03
 
 ### Improved
@@ -8,8 +10,6 @@
 - Routine background errors are now recorded in logs rather than repeatedly interrupting the user interface.
 
 > This change improves error presentation; it does not mean all underlying errors have been eliminated.
-
-All notable user-facing changes to SHANEX Print Manager Pro are documented here.
 
 ## v5.0.4 - 2026-08-28
 
