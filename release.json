@@ -1,11 +1,11 @@
 {
-  "version": "5.1.8",
+  "version": "5.0.4",
   "releaseType": "optional",
   "minVersion": "3.1.0",
-  "changelog": "SHANEX Print Manager Pro v5.1.9\n\n- Added an alternative Firefox browser engine option for WhatsApp integration.\n- Provides additional browser-engine flexibility.\n\nNote: Firefox engine availability does not guarantee compatibility with every WhatsApp Web feature.",
+  "changelog": "SHANEX Print Manager Pro v5.0.4\n\n- Improved WhatsApp startup recovery and media reconciliation.\n- Improved center panel reliability and duplicate file-import protection.\n- Improved printing, printer monitoring, and app stability.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.1.9/SHANEX-Print-Manager-Pro-Setup-5.1.8.exe",
-    "sha256": "eea059bcfb2290b92a76a7c3821f1bd956b229434f911be9711dbfde84eea454",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.4/SHANEX.Print.Manager.Pro.Setup.5.0.4.exe",
+    "sha256": "e924b7421b21b6b037b318c53ef52b3f14520526cda03a75cecc35a8f33d4c58",
     "format": "inno"
   },
   "tips": [
@@ -26,8 +26,8 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.1.9/SHANEX-Print-Manager-Pro-Setup-5.1.8.exe",
-    "sha256": "eea059bcfb2290b92a76a7c3821f1bd956b229434f911be9711dbfde84eea454",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.4/SHANEX.Print.Manager.Pro.Setup.5.0.4.exe",
+    "sha256": "e924b7421b21b6b037b318c53ef52b3f14520526cda03a75cecc35a8f33d4c58",
     "format": "inno",
     "cleanInstallOnly": false,
     "legacyRemovalMode": "interactive-registered-uninstaller",
