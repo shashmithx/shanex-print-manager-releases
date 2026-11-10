@@ -2,7 +2,7 @@
   "version": "5.1.9",
   "releaseType": "optional",
   "minVersion": "3.1.0",
-  "changelog": "SHANEX Print Manager Pro v5.1.9 (Beta)\n\nසමාවෙන්න! මෙය තවම ටෙස්ටින්ග් මට්ටමේ අප්ඩේට් එකකි. පරීක්ෂා කර ගැටලු වාර්තා කිරීමට කැමති නම් පමණක් ඩවුන්ලෝඩ් කරන්න. ස්තූතියි!",
+  "changelog": "V5.1.9 Beta\n\nසමාවෙන්න! මෙය ටෙස්ට් අප්ඩේට් එකකි. ගැටලු වාර්තා කිරීමට කැමති අය පමණක් ඩවුන්ලෝඩ් කරන්න. ස්තූතියි!",
   "installer": {
     "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/Beta/SHANEX-Print-Manager-Pro-Setup-5.1.9.exe",
     "sha256": "840c922f21c13623fd1e06a73c1da61941689a771d994e84dbc7347cd4f04893",
