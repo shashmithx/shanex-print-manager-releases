@@ -1,12 +1,12 @@
 {
-  "version": "5.1.9",
+  "version": "5.0.4",
   "releaseType": "optional",
   "minVersion": "3.1.0",
-  "changelog": "V5.1.9 Beta\n\nසමාවෙන්න! මෙය ටෙස්ට් අප්ඩේට් එකකි. ගැටලු වාර්තා කිරීමට කැමති අය පමණක් ඩවුන්ලෝඩ් කරන්න. ස්තූතියි!",
+  "changelog": "SHANEX Print Manager Pro V5.0.4\n\nV5.0.4 පැරණි නිකුතුව ලබා දී ඇත. V5.1.9 Beta සිට මෙම සංස්කරණයට මාරුවීම downgrade එකකි. අලුත් සංස්කරණ භාවිතා කරන අයට ස්වයංක්‍රීය downgrade එකක් සිදු නොවේ.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/Beta/SHANEX-Print-Manager-Pro-Setup-5.1.9.exe",
-    "sha256": "840c922f21c13623fd1e06a73c1da61941689a771d994e84dbc7347cd4f04893",
-    "format": "inno"
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.4/SHANEX.Print.Manager.Pro.Setup.5.0.4.exe",
+    "sha256": "e924b7421b21b6b037b318c53ef52b3f14520526cda03a75cecc35a8f33d4c58",
+    "format": "nsis"
   },
   "tips": [
     {
@@ -26,11 +26,9 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/Beta/SHANEX-Print-Manager-Pro-Setup-5.1.9.exe",
-    "sha256": "840c922f21c13623fd1e06a73c1da61941689a771d994e84dbc7347cd4f04893",
-    "format": "inno",
-    "cleanInstallOnly": false,
-    "legacyRemovalMode": "interactive-registered-uninstaller",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.4/SHANEX.Print.Manager.Pro.Setup.5.0.4.exe",
+    "sha256": "e924b7421b21b6b037b318c53ef52b3f14520526cda03a75cecc35a8f33d4c58",
+    "format": "nsis",
     "legacyMigrationVerified": false
   }
 }
