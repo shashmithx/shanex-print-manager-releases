@@ -1,11 +1,11 @@
 {
-  "version": "5.0.4",
-  "releaseType": "optional",
+  "version": "5.2.0",
+  "releaseType": "normal",
   "minVersion": "3.1.0",
-  "changelog": "SHANEX Print Manager Pro V5.0.4\n\nV5.0.4 පැරණි නිකුතුව ලබා දී ඇත. V5.1.9 Beta සිට මෙම සංස්කරණයට මාරුවීම downgrade එකකි. අලුත් සංස්කරණ භාවිතා කරන අයට ස්වයංක්‍රීය downgrade එකක් සිදු නොවේ.",
+  "changelog": "SHANEX Print Manager Pro V5.2.0\n\nWhatsApp Auto Download, Auto Import, Re-scan සහ Recovery වැඩිදියුණු කිරීම් සහ දෝෂ නිවැරදි කිරීම්.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.4/SHANEX.Print.Manager.Pro.Setup.5.0.4.exe",
-    "sha256": "e924b7421b21b6b037b318c53ef52b3f14520526cda03a75cecc35a8f33d4c58",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.2.0/SHANEX-Print-Manager-Pro-Setup-5.2.0.exe",
+    "sha256": "bb811fb4dec03ef9108b982b523a93ae7c0620bd36c0b6606d289f6f625e6f5d",
     "format": "nsis"
   },
   "tips": [
@@ -26,8 +26,8 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.4/SHANEX.Print.Manager.Pro.Setup.5.0.4.exe",
-    "sha256": "e924b7421b21b6b037b318c53ef52b3f14520526cda03a75cecc35a8f33d4c58",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.2.0/SHANEX-Print-Manager-Pro-Setup-5.2.0.exe",
+    "sha256": "bb811fb4dec03ef9108b982b523a93ae7c0620bd36c0b6606d289f6f625e6f5d",
     "format": "nsis",
     "legacyMigrationVerified": false
   }
