@@ -1,11 +1,11 @@
 {
-  "version": "5.2.2",
+  "version": "5.2.4",
   "releaseType": "normal",
   "minVersion": "3.1.0",
-  "changelog": "SHANEX Print Manager Pro V5.2.2\n\n- Added Grid Mode and manual download.\n- Added date separators in WhatsApp chats.\n- Improved WhatsApp download algorithm and connection stability.\n- Restored the old Photocopy panel.\n- Improved Office document conversion.\n- Reduced CPU usage by making some background operations manual.",
+  "changelog": "SHANEX Print Manager Pro V5.2.4\n\n- Improved WhatsApp download handling and reliability.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.2.2/SHANEX-Print-Manager-Pro-Setup-5.2.2.exe",
-    "sha256": "b377f13261a590c71b34c39172ebd0b97d3a59545efcc8c1cf03301470dc7306",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.2.4/SHANEX-Print-Manager-Pro-Setup-5.2.4.exe",
+    "sha256": "3e55af33ff73bf096596c9ee0e15251d7521accc4d6694b1c1f30a6598b4cb95",
     "format": "inno"
   },
   "tips": [
@@ -26,8 +26,8 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.2.2/SHANEX-Print-Manager-Pro-Setup-5.2.2.exe",
-    "sha256": "b377f13261a590c71b34c39172ebd0b97d3a59545efcc8c1cf03301470dc7306",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.2.4/SHANEX-Print-Manager-Pro-Setup-5.2.4.exe",
+    "sha256": "3e55af33ff73bf096596c9ee0e15251d7521accc4d6694b1c1f30a6598b4cb95",
     "format": "inno",
     "legacyMigrationVerified": false,
     "legacyRemovalMode": "interactive-registered-uninstaller"
