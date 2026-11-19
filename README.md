@@ -1,120 +1,122 @@
-# SHANEX Print Manager Pro v4.1.5
+# SHANEX Print Manager Pro v5.3.0
 
-Release date: 28 July 2026  | 11:20PM
+**[Download for Windows x64](https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.3.0/SHANEX-Print-Manager-Pro-Setup-5.3.0.exe)** · **[View All Releases](https://github.com/shashmithx/shanex-print-manager-releases/releases)**
 
-This release focuses on print-production tools, licensing reliability, WhatsApp stability, portable configuration, POS clarity, and general workflow improvements.
+SHANEX Print Manager Pro is a complete print-shop workflow platform for customer jobs, PDF printing, POS, scanning, printer monitoring, WhatsApp printing, and multi-PC shop operations.
 
-## Highlights
-- New UI Improvements (Pos, Print Que)
-- Added portable full and selective settings transfer between SHANEX installations.
-- Added advanced global and per-printer X/Y print-position calibration.
-- Added business-card, bill-book and sticker imposition improvements.
-- Upgraded online licensing to signed v3 entitlement and lease tokens.
-- Improved WhatsApp contact, media and international-number handling.
-- Improved POS payment history and print/product grouping.
+---
 
-## Printing and imposition
+## What's New in v5.3.0
 
-- Added last-used settings restoration and reusable imposition presets.
-- Added automatic source-document size and PDF bleed detection, with manual overrides.
-- Added source-document and export-document summaries.
-- Added configurable cut-mark length and distance from artwork.
-- Added a clean cut-mark mode that avoids unnecessary marks inside artwork.
-- Fixed the imposition preview layout so the preview remains visible on the right.
-- Added separate artwork and output-sheet previews for numbering workflows.
-- Added settings reset controls.
-- Fixed incomplete sheet filling and damaged PDF exports in sticker imposition.
-- Added an option to rotate the lower bill-book row by 180 degrees for outward-facing binding edges.
-- Added sticker numbering with configurable start number, padding, prefix, suffix, font, size, position and colour.
-- Added optional hidden `CutContour` output for plotter and die-cut workflows.
-- Added configurable rounded sticker corners.
-- Added Crash Numbering Gothic and Crash Numbering Serif support.
-- Expanded the B/W sketch filter range with progressively darker strength levels.
+Version 5.3.0 focuses on clear visual progress for file importing and WhatsApp downloads, smoother printing for scanned and mixed PDF documents, and a safer Backup & Fresh Start experience.
 
-## Print defaults and calibration
+### Live File Import & Download Progress
 
-- Added `Settings â†’ Printing Defaults â†’ Advanced Print Settings`.
-- Moved user-facing X/Y calibration controls out of Developer Settings.
-- Added global X and Y offsets.
-- Added independent per-printer X and Y offsets.
-- Added alignment reset and calibration guidance.
-- Preserved compatibility with existing saved offset values.
+- Added smooth animations while files are importing into a customer queue, with a clear green confirmation when importing has finished.
+- Added a live **WhatsApp Download Queue** progress bar so you can see active downloads, waiting files, and completed downloads at a glance.
+- Click the Download Queue bar anytime to expand and see which files are currently downloading, waiting next, or recently finished.
+- Files that are still being prepared now show a clear importing indicator instead of an error state until they are ready to print.
 
-## Settings transfer
+### Smoother PDF & Scanned Document Printing
 
-- Added portable JSON export and import under `Settings â†’ System & Backup`.
-- Added full portable settings export.
-- Added selective export/import for:
-  - Price lists and paper types
-  - Products and variants
-  - Print defaults and X/Y alignment
-  - Print-setting templates
-  - Shortcuts and template keys
-- Selective import changes only the categories contained in the file.
-- Machine-specific paths, licence data and saved account passwords are excluded from portable backups.
+- Scanned past papers and PDF pages containing both images and text overlays now print smoothly instead of being blocked or skipped.
+- Standard text documents continue printing cleanly and sharply as before.
 
-## WhatsApp
+### Safer Backup & Fresh Start
 
-- Improved contact synchronization reliability.
-- Improved normalization and handling of international phone numbers.
-- Improved media download and missing-file recovery behavior.
-- Improved date-folder rollover for applications left running across multiple days.
-- Improved startup recovery and persisted-log handling.
-- Improved duplicate-file and stale-preview handling.
+- Improved **Backup & Fresh Start** to back up your data first while keeping your personalized shop settings, price lists, print presets, shortcuts, and themes.
+- Automatically clears old WhatsApp sessions and temporary files during a fresh start so the app starts completely clean.
+- Asks for your separate confirmation after a fresh start if you also want to clean up old files in your downloads folder, or keep all downloaded files untouched.
+- Allows starting Backup & Fresh Start smoothly without getting blocked when a printer or background task is slow to respond.
 
-## POS, payments and file status
+### WhatsApp & Everyday Reliability
 
-- Products are now displayed with print files according to the date they were added.
-- Added clearer date separators and completed-print indicators.
-- Print items and product items paid together are now stored as a single payment group.
-- Payments can be taken before printing is completed.
-- Added paid-state records and warnings when attempting to charge an already-paid item.
-- Improved visual setting indicators and replaced Unicode status symbols with SVG icons.
-- Improved deleted-file detection to reduce false â€œfile deletedâ€ states.
-- Fixed unwanted automatic chat scrolling while reviewing older messages.
-- Improved print-processing progress feedback.
+- Improved WhatsApp download handling, recovery, and customer queue responsiveness.
+- General stability, speed, and usability improvements throughout the application.
 
-## Licensing and telemetry
+---
 
-- Added signed v3 entitlement and lease-token support.
-- Added automatic legacy-licence upgrade to v3 leases.
-- Added remote hardware-ID block checks before lease renewal.
-- Added safe recovery after an administrator removes a hardware block.
-- Added D1 entitlement, lease, trial-extension, emergency-unlock and server-worker schemas.
-- Removed a path that could allow a client ingest credential to add hardware IDs to the block list.
-- Fixed duplicate licence API routes and malformed telemetry D1 writes.
-- Added strict machine-ID validation.
-- Added separate admin and ingest authentication paths.
-- Added Sri Lanka time display for application logs and telemetry dashboards while retaining UTC storage.
+# 🚀 SHANEX Print Manager V6 Native
 
-## Installer
+**Your Entire Print Shop. One Powerful App.**
 
-- Improved the uninstall licence-removal confirmation.
-- Added bilingual Sinhala and English guidance.
-- Licence deletion now defaults to `No` to reduce accidental removal.
-- Temporary cache cleanup is separated from licence-data removal.
-- Customer databases, sales data, print history and business records remain preserved.
+**Four ways to receive orders. One smart way to manage them.**
 
-## Fixes and maintenance
+🌐 **Online Printing** · 🏪 **Self-Service Kiosk** · 💬 **WhatsApp Printing** · 🚶 **Walk-in Jobs**
 
-- Fixed missing C# dispatcher mappings for licence upgrade, server-token storage, revocation and network diagnostics.
-- Fixed stale licence-gate cache after token renewal or server revocation.
-- Fixed duplicate startup licence refresh behavior.
-- Improved startup diagnostics and error reporting.
-- Added safer D1 indexes for entitlement and lease lookups.
-- Updated Cloudflare Worker configuration and production deployment checks.
+🗂️ **Live Job Dashboard** · 🧮 **Smart Print Estimator** · 🖨️ **Smart Printing** · 👁️ **Quick Look**
 
-## Upgrade notes
+💰 **Business Management** · ⚡ **All-New Native Windows Experience**
 
-- Back up the local database before upgrading.
-- Existing print presets, price lists and printer offsets remain compatible.
-- Restart SHANEX after importing printer, interface or WhatsApp settings.
-- A valid signed v3 lease is required to clear a server-revoked state after an administrator unblocks a machine.
+**More Orders. Less Effort. Bigger Possibilities.**
 
+➡️ **[V6.0.4 Release Candidate Highlights](https://github.com/shashmithx/shanex-print-manager-releases/blob/main/V6.0.4_RELEASE_NOTES.md)**
 
-➡️ **[Download the latest release](https://github.com/shashmithx/shanex-print-manager-releases/releases/latest)**
+📋 [All V6 Native Highlights](https://github.com/shashmithx/shanex-print-manager-releases/blob/main/V6_NATIVE_RELEASE_NOTES.md)
 
-See [all releases](https://github.com/shashmithx/shanex-print-manager-releases/releases) for previous versions.
+📦 **[View Releases & Downloads](https://github.com/shashmithx/shanex-print-manager-releases/releases)**
+
+> Feature availability varies by build. Please check individual release notes before installing.
+
+---
+
+## SHANEX V5 Highlights
+
+### Modern Interface
+
+- Includes optional SHANEX V4 Classic, SHANEX V5, SHANEX macOS Dark, and SHANEX macOS Light themes.
+- Theme selection is saved automatically and restored after restart.
+- Responsive Center Panel toolbars keep controls neat and easy to reach on smaller screens.
+- Clear customer cards with profile pictures and adjustable phone-number size in Settings.
+
+### Print Queue and File Workflow
+
+- Click anywhere on a file row to select it, or switch between List view and Explorer Grid view.
+- Select product rows directly alongside print jobs in the queue.
+- Save and apply reusable print templates for printer, tray, paper size, colour mode, duplex, N-up, booklet, and page ranges.
+- Fast function-key shortcuts for your most common print setups.
+
+### Printing and PDF Reliability
+
+- Reliable PDF printing for regular documents, fillable forms, and scanned papers.
+- Quick Look preview with Sinhala font support, page cropping, rotation, and quick edits.
+- Flexible paper size, tray, duplex, and print quality controls.
+
+### Scanner Integration
+
+- Built-in scanner support with customizable scan presets, colour modes, paper sizes, and shortcuts.
+- Scan directly to PDF or images with alternating-page rotation support.
+
+### Image Studio and Imposition Tools
+
+- Built-in Image Studio for quick layouts, tiling, crop marks, and print-ready exports.
+- Imposition Tools for business cards, bill books, sticker sheets, numbering, and cut marks.
+
+### POS and Payments
+
+- Fast Product Checkout with keyboard navigation and customer-queue integration.
+- Track print jobs, products, partial payments, credit balances, receipts, and Ready-for-Pickup updates in one place.
+
+### WhatsApp and Customer Workflow
+
+- Receive customer files directly from WhatsApp with live download queue tracking and automatic recovery.
+- Send Ready-for-Pickup, payment receipt, and custom follow-up messages directly to customers.
+- Fast customer search, unread indicators, and date-grouped file queues.
+
+### Printer Monitoring and Reports
+
+- Live Printer Monitor for printer status, alerts, and photocopy counter tracking.
+- Daily sales, balance, and activity reports to keep your shop organized.
+
+---
+
+## Upgrade Notes
+
+- Existing customer data, print settings, prices, and templates are preserved during standard upgrades.
+- Existing themes remain available.
+- No manual migration is required for standard local installations.
+
+See [CHANGELOG.md](CHANGELOG.md) for version-by-version changes, or view [all releases](https://github.com/shashmithx/shanex-print-manager-releases/releases).
 
 ---
 © 2024–2026 SHANEX.LK · Developed by Shashmith Ayoddaya
