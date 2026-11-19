@@ -1,11 +1,11 @@
 {
-  "version": "5.2.4",
+  "version": "5.3.0",
   "releaseType": "normal",
   "minVersion": "3.1.0",
-  "changelog": "SHANEX Print Manager Pro V5.2.4\n\n- Improved WhatsApp download handling and reliability.",
+  "changelog": "SHANEX Print Manager Pro V5.3.0\n\n- Added animated file importing banner, per-file PDF validation indicators, and real-time WhatsApp Download Queue progress bar with expandable queue inspector.\n- Automatically fall back to high-DPI lossless PNG rasterization for mixed vector + bitmap PDF pages instead of aborting under vector-preservation policy.\n- Enhanced Backup DB Folder & Fresh Start to wipe all WhatsApp/browser caches, force-allow recovery when busy, rebuild and verify all SQLite tables/indexes, and prompt separately before cleaning downloads.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.2.4/SHANEX-Print-Manager-Pro-Setup-5.2.4.exe",
-    "sha256": "3e55af33ff73bf096596c9ee0e15251d7521accc4d6694b1c1f30a6598b4cb95",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.3.0/SHANEX-Print-Manager-Pro-Setup-5.3.0.exe",
+    "sha256": "7c1385fa259ae27a1edc4e0687b256cc610e2d62bed32aaabca3877e2c543cb6",
     "format": "inno"
   },
   "tips": [
@@ -26,8 +26,8 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.2.4/SHANEX-Print-Manager-Pro-Setup-5.2.4.exe",
-    "sha256": "3e55af33ff73bf096596c9ee0e15251d7521accc4d6694b1c1f30a6598b4cb95",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.3.0/SHANEX-Print-Manager-Pro-Setup-5.3.0.exe",
+    "sha256": "7c1385fa259ae27a1edc4e0687b256cc610e2d62bed32aaabca3877e2c543cb6",
     "format": "inno",
     "legacyMigrationVerified": false,
     "legacyRemovalMode": "interactive-registered-uninstaller"
