@@ -1,12 +1,38 @@
-# SHANEX Print Manager Pro v5.0.9 — Download available
+# SHANEX Print Manager Pro v5.3.0
 
-[Download for Windows x64](https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.0.9/SHANEX-Print-Manager-Pro-Setup-5.0.9.exe)
+**[Download for Windows x64](https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.3.0/SHANEX-Print-Manager-Pro-Setup-5.3.0.exe)** · **[View All Releases](https://github.com/shashmithx/shanex-print-manager-releases/releases)**
 
-Customized animated installer. Size: 185,180,511 bytes. Unsigned. Build, payload, version and integrity checks passed; installation and animation have not been visually verified. This installer is for clean installations; migration from older NSIS/MSI installations remains unverified.
+SHANEX Print Manager Pro is a complete print-shop workflow platform for customer jobs, PDF printing, POS, scanning, printer monitoring, WhatsApp printing, and multi-PC shop operations.
 
-SHA-256: ecb6e8f6fb0c3fbb53efe91f0c38e4df2e61a21555218de93acc2f6cebc4448e
+---
 
-[v5.0.9 release notes](V5.0.9_RELEASE_NOTES.md)
+## What's New in v5.3.0
+
+Version 5.3.0 focuses on clear visual progress for file importing and WhatsApp downloads, smoother printing for scanned and mixed PDF documents, and a safer Backup & Fresh Start experience.
+
+### Live File Import & Download Progress
+
+- Added smooth animations while files are importing into a customer queue, with a clear green confirmation when importing has finished.
+- Added a live **WhatsApp Download Queue** progress bar so you can see active downloads, waiting files, and completed downloads at a glance.
+- Click the Download Queue bar anytime to expand and see which files are currently downloading, waiting next, or recently finished.
+- Files that are still being prepared now show a clear importing indicator instead of an error state until they are ready to print.
+
+### Smoother PDF & Scanned Document Printing
+
+- Scanned past papers and PDF pages containing both images and text overlays now print smoothly instead of being blocked or skipped.
+- Standard text documents continue printing cleanly and sharply as before.
+
+### Safer Backup & Fresh Start
+
+- Improved **Backup & Fresh Start** to back up your data first while keeping your personalized shop settings, price lists, print presets, shortcuts, and themes.
+- Automatically clears old WhatsApp sessions and temporary files during a fresh start so the app starts completely clean.
+- Asks for your separate confirmation after a fresh start if you also want to clean up old files in your downloads folder, or keep all downloaded files untouched.
+- Allows starting Backup & Fresh Start smoothly without getting blocked when a printer or background task is slow to respond.
+
+### WhatsApp & Everyday Reliability
+
+- Improved WhatsApp download handling, recovery, and customer queue responsiveness.
+- General stability, speed, and usability improvements throughout the application.
 
 ---
 
@@ -34,146 +60,63 @@ SHA-256: ecb6e8f6fb0c3fbb53efe91f0c38e4df2e61a21555218de93acc2f6cebc4448e
 
 ---
 
-## Previous Version: V5.0.4
-
-SHANEX Print Manager Pro is a print-shop workflow platform for customer jobs, PDF printing, POS, scanning, printer monitoring, WhatsApp-assisted workflows, and multi-PC shop operations.
-
-## What's New in v5.0.4
-
-Version 5.0.4 focuses on stability, printer monitoring, live copier workflows, server-mode groundwork, and UI refinement.
-
-### Server Mode & Multi-PC Workflow
-
-- Expanded the Server Mode foundation for shared shop workflows and central operation.
-- Improved center-panel behavior and related UI states for server-oriented workflows.
-- Hid kiosk-specific settings automatically when kiosk mode is disabled.
-
-### Printer Monitoring & Photocopy Counter
-
-- Fixed and hardened SNMP polling used for printer and copier monitoring.
-- Added a live photocopy auto-counter workflow.
-- Added live counter UI updates and improved synchronization between copier data and the interface.
-
-### Printing & Receipts
-
-- Improved thermal receipt output so important text prints with stronger visibility and contrast.
-- Added safer handling for receipt template markup and thermal output generation.
-- Improved printing behavior related to light or low-contrast output.
-
-### Reliability & Internal Communication
-
-- Fixed Native AOT pipe response serialization used by native/helper components.
-- Strengthened duplicate file-import suppression to prevent the same incoming file from being added repeatedly.
-- Improved live UI state synchronization around photocopy monitoring.
-
-### Interface Improvements
-
-- Refined the center panel and general application UI.
-- Improved visibility and state handling for settings that only apply to specific operating modes.
-
----
-
-## Changelog - v5.0.4
-
-### Added
-
-- Expanded Server Mode foundations for shared and multi-PC print-shop workflows.
-- Added a live photocopy auto-counter workflow.
-- Added live photocopy counter UI updates and state synchronization.
-- Added stronger thermal receipt rendering with high-contrast output support.
-
-### Improved
-
-- Improved SNMP printer/copier polling and monitoring reliability.
-- Refined the center panel and general UI behavior.
-- Improved receipt generation and thermal-printer visibility.
-- Improved live photocopy UI synchronization.
-- Improved operating-mode settings visibility by hiding kiosk-only controls when kiosk mode is disabled.
-
-### Fixed
-
-- Fixed Native AOT pipe response serialization used by native/helper components.
-- Strengthened duplicate file-import suppression to prevent repeated imports of the same incoming file.
-- Improved printing behavior related to light or low-contrast output.
-
----
-
 ## SHANEX V5 Highlights
 
 ### Modern Interface
 
-- Added optional SHANEX V4 Classic, SHANEX V5, SHANEX macOS Dark, and SHANEX macOS Light themes.
-- Theme selection is saved locally and restored automatically after restart.
-- Improved responsive Center Panel toolbars to prevent overlapping controls on smaller screens.
-- Improved customer cards, spacing, controls, profile-picture display, and phone-number readability.
-- Customer phone-number size can be adjusted from Settings and applies across supported themes.
+- Includes optional SHANEX V4 Classic, SHANEX V5, SHANEX macOS Dark, and SHANEX macOS Light themes.
+- Theme selection is saved automatically and restored after restart.
+- Responsive Center Panel toolbars keep controls neat and easy to reach on smaller screens.
+- Clear customer cards with profile pictures and adjustable phone-number size in Settings.
 
 ### Print Queue and File Workflow
 
-- Click anywhere on a file row to select it, except on interactive controls such as inputs, checkboxes, buttons, and drag handles.
-- Product rows can be selected directly from the queue.
-- Improved queue spacing, selected states, date grouping, and file-row readability.
-- Improved print template capture and application for printer, tray, paper, media type, print quality, duplex, colour mode, N-up, booklet, and page-selection settings.
-- Improved printer capability loading and printer setting refresh behavior.
-- Added safer handling for stale per-file print settings.
+- Click anywhere on a file row to select it, or switch between List view and Explorer Grid view.
+- Select product rows directly alongside print jobs in the queue.
+- Save and apply reusable print templates for printer, tray, paper size, colour mode, duplex, N-up, booklet, and page ranges.
+- Fast function-key shortcuts for your most common print setups.
 
 ### Printing and PDF Reliability
 
-- Improved native PDF print routing and vector-print reliability.
-- Improved handling for fillable PDF forms before printing.
-- Improved Quick Look support for Sinhala fonts, Unicode file paths, page operations, cropping, rotation, and restoration.
-- Improved preview loading behavior for scanned and image-heavy documents.
-- Improved paper size, tray, media type, duplex, and printer quality handling.
-- Added stronger function-key print-template support.
+- Reliable PDF printing for regular documents, fillable forms, and scanned papers.
+- Quick Look preview with Sinhala font support, page cropping, rotation, and quick edits.
+- Flexible paper size, tray, duplex, and print quality controls.
 
 ### Scanner Integration
 
-- Added NAPS2 scanner integration.
-- Added configurable scanner presets, DPI, colour mode, page size, output type, and scanner selection.
-- Added scan-to-PDF and scan-to-image workflows.
-- Added scan preset keyboard shortcuts.
-- Added alternating-page rotation support for scanning workflows.
+- Built-in scanner support with customizable scan presets, colour modes, paper sizes, and shortcuts.
+- Scan directly to PDF or images with alternating-page rotation support.
 
 ### Image Studio and Imposition Tools
 
-- Improved Image Studio controls, layout tools, crop marks, boundaries, PDF import, and output setup.
-- Improved Imposition Tools for business cards, bill numbering, cut marks, carbon-copy planning, and print-ready layouts.
-- Added improved planning previews and custom layout controls.
+- Built-in Image Studio for quick layouts, tiling, crop marks, and print-ready exports.
+- Imposition Tools for business cards, bill books, sticker sheets, numbering, and cut marks.
 
 ### POS and Payments
 
-- Improved Product Checkout workflow and keyboard navigation.
-- Improved product selection, quantity editing, cart navigation, and customer-queue integration.
-- Added improved product/service handling alongside print jobs.
-- Improved payment, outstanding balance, credit, receipt, and Ready-for-Pickup workflows.
+- Fast Product Checkout with keyboard navigation and customer-queue integration.
+- Track print jobs, products, partial payments, credit balances, receipts, and Ready-for-Pickup updates in one place.
 
 ### WhatsApp and Customer Workflow
 
-- Improved WhatsApp startup recovery and media reconciliation.
-- Improved customer profile-picture loading and caching.
-- Improved Ready-for-Pickup, payment receipt, and customer message workflows.
-- Improved customer search, recent-customer access, and queue navigation.
+- Receive customer files directly from WhatsApp with live download queue tracking and automatic recovery.
+- Send Ready-for-Pickup, payment receipt, and custom follow-up messages directly to customers.
+- Fast customer search, unread indicators, and date-grouped file queues.
 
 ### Printer Monitoring and Reports
 
-- Added Printer Monitor and monitoring improvements.
-- Improved printer counter, fault, status, and monitoring workflows.
-- Added better daily reporting and worker activity reporting support.
-- Improved printer capability detection and machine configuration handling.
+- Live Printer Monitor for printer status, alerts, and photocopy counter tracking.
+- Daily sales, balance, and activity reports to keep your shop organized.
 
-### Performance and Reliability
-
-- Reduced unnecessary preview and media processing.
-- Improved file metadata indexing and queue loading behavior.
-- Improved startup recovery and dependency handling.
-- Improved automatic update reliability.
-- Improved customer-data safety during upgrades and recovery operations.
-- General stability, usability, and performance improvements throughout the application.
+---
 
 ## Upgrade Notes
 
-- Existing customer data, print settings, and templates are preserved during standard upgrades.
+- Existing customer data, print settings, prices, and templates are preserved during standard upgrades.
 - Existing themes remain available.
 - No manual migration is required for standard local installations.
 
-See [CHANGELOG.md](CHANGELOG.md) for version-by-version changes.
+See [CHANGELOG.md](CHANGELOG.md) for version-by-version changes, or view [all releases](https://github.com/shashmithx/shanex-print-manager-releases/releases).
+
+---
+© 2024–2026 SHANEX.LK · Developed by Shashmith Ayoddaya
