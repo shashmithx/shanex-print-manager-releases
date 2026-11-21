@@ -1,11 +1,11 @@
 {
-  "version": "5.3.1",
+  "version": "5.3.4",
   "releaseType": "normal",
   "minVersion": "3.1.0",
-  "changelog": "SHANEX Print Manager Pro V5.3.1\n\n- Fixed the printing error display issue.\n- Added a new black-and-white filter.\n- Optimized preview thumbnails for improved performance.\n- Increased receipt font size for better readability.",
+  "changelog": "SHANEX Print Manager Pro V5.3.4\n\n- Fixed an issue causing solid black prints.\n- Fixed print tracking errors to improve printing status accuracy.",
   "installer": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.3.1/SHANEX-Print-Manager-Pro-Setup-5.3.1.exe",
-    "sha256": "9a98305e4fc1343da6f2d67dc7aee13eff1dd7eac3f4bf7ea629370dedf9bbd7",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.3.4/SHANEX-Print-Manager-Pro-Setup-5.3.4.exe",
+    "sha256": "6ef4ff88f3aa7b426a20ab84e49e9259079f72bb17edf4900afcdd5d2ca18b67",
     "format": "inno"
   },
   "tips": [
@@ -26,8 +26,8 @@
     "94704668661"
   ],
   "manualDownload": {
-    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.3.1/SHANEX-Print-Manager-Pro-Setup-5.3.1.exe",
-    "sha256": "9a98305e4fc1343da6f2d67dc7aee13eff1dd7eac3f4bf7ea629370dedf9bbd7",
+    "url": "https://github.com/shashmithx/shanex-print-manager-releases/releases/download/V5.3.4/SHANEX-Print-Manager-Pro-Setup-5.3.4.exe",
+    "sha256": "6ef4ff88f3aa7b426a20ab84e49e9259079f72bb17edf4900afcdd5d2ca18b67",
     "format": "inno",
     "legacyMigrationVerified": false,
     "legacyRemovalMode": "interactive-registered-uninstaller"
